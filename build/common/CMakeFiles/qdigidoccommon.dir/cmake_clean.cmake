@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "qdigidoccommon_autogen"
+  "CMakeFiles/qdigidoccommon_autogen.dir/AutogenOldSettings.cmake"
+  "qrc_config.cpp"
+  "qtbase_et.qm"
+  "qtbase_ru.qm"
+  "common_en.qm"
+  "common_et.qm"
+  "common_ru.qm"
+  "qrc_common_images.cpp"
+  "qrc_common_tr.cpp"
+  "ui_AboutDialog.h"
+  "ui_CertificateWidget.h"
+  "CMakeFiles/qdigidoccommon.dir/Configuration.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/qrc_config.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/Diagnostics_unix.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/MacMenuBar.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/qrc_common_images.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/qrc_common_tr.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/AboutDialog.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/CertificateWidget.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/CliApplication.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/ComboBox.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/Common.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/DateTime.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/Diagnostics.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/DiagnosticsTask.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/IKValidator.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/PinDialog.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/QPCSC.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/SOAPDocument.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/SslCertificate.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/TokenData.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/qasn1element.cpp.o"
+  "CMakeFiles/qdigidoccommon.dir/qdigidoccommon_autogen/mocs_compilation.cpp.o"
+  "libqdigidoccommon.pdb"
+  "libqdigidoccommon.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qdigidoccommon.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
