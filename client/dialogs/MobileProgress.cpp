@@ -28,6 +28,7 @@
 #include <common/SOAPDocument.h>
 #include <common/SslCertificate.h>
 
+#include <QDebug>
 #include <QPushButton>
 #include <QtCore/QDir>
 #include <QtCore/QTimeLine>
@@ -265,6 +266,7 @@ void MobileProgress::sign( const DigiDoc *doc, const QString &ssid, const QStrin
 		r.writeStartElement( "DataFileDigest" );
 		r.writeAttribute( XML_SCHEMA_INSTANCE, "type", QString( "m:" ).append( "DataFileDigest" ) );
 		r.writeParameter( "Id", m->data(i) );
+		qDebug() << "Mobile add file:" << m->data(i).toLatin1().toHex() << m->data(i);
 		r.writeParameter( "DigestType", "sha256" );
 		r.writeParameter( "DigestValue", doc->getFileDigest( i ).toBase64() );
 		r.writeParameter( "MimeType", m->mime(i) );
