@@ -420,7 +420,7 @@ bool DigiDoc::addFile(const QString &file, const QString &mime)
 	if( !checkDoc( b->signatures().size() > 0, tr("Cannot add files to signed container") ) )
 		return false;
 	try {
-		qDebug() << "DDOC add file:" << file.toLatin1().toHex() << to(file);
+		qDebug() << "DDOC add file:" << file.toLatin1().toHex() << to(file).c_str();
 		b->addDataFile( to(file), to(mime));
 		modified = true;
 		return true;
